@@ -1,0 +1,9 @@
+git init
+git checkout -b dev
+git config —local user.email ""
+git config —local user.name ""
+git add .
+git commit -m "initial"
+git log
+git remote add origin "ссылка"
+git push -u origin dev
